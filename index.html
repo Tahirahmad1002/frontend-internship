@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week1 task</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic styles for the new items in the main body */
+        .item-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .item-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .item-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .item-card h3 {
+            margin: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .item-card p {
+            color: #555;
+            font-size: 14px;
+        }
+        .item-card .price {
+            color: #007BFF;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .item-card .add-to-cart {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .item-card .add-to-cart:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="header-container">
+        <div class="header">
+            <div class="brand">
+                <div class="brand-icon">B</div>
+                <div class="brand-name">Brand</div>
+            </div>
+            
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search">
+                <select class="category-select">
+                    <option>All category</option>
+                    <option>Electronics</option>
+                    <option>Clothing</option>
+                    <option>Home Appliances</option>
+                </select>
+                <button class="search-button">Search</button>
+            </div>
+            
+            <div class="nav-icons">
+                <a href="#" class="nav-item">
+                    <div class="icon">👤</div>
+                    <span>Profile</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <div class="icon">✉️</div>
+                    <span>Message</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <div class="icon">❤️</div>
+                    <span>Orders</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <div class="icon">🛒</div>
+                    <span>My cart</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <div class="icon">🔔</div>
+                    <span>Notifications</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainbody">
+        <!-- New section for items -->
+        <div class="item-container">
+            <!-- Item 1 -->
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\cloth\1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Great product for your needs. High quality and durable.</p>
+                <div class="price">$199.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\cloth\2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Affordable and stylish. Perfect for any occasion.</p>
+                <div class="price">$49.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\cloth\3.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>Innovative design, with top-of-the-line features.</p>
+                <div class="price">$299.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\cloth\4.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Best in class performance and affordability.</p>
+                <div class="price">$99.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\cloth\5.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Best in class performance and affordability.</p>
+                <div class="price">$99.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\cloth\6.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Best in class performance and affordability.</p>
+                <div class="price">$99.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\cloth\7.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Best in class performance and affordability.</p>
+                <div class="price">$99.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\interior\1.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Best in class performance and affordability.</p>
+                <div class="price">$99.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\tech\2.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Best in class performance and affordability.</p>
+                <div class="price">$99.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\tech\3.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Best in class performance and affordability.</p>
+                <div class="price">$99.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\tech\4.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Best in class performance and affordability.</p>
+                <div class="price">$99.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\tech\5.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Best in class performance and affordability.</p>
+                <div class="price">$99.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\tech\6.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Best in class performance and affordability.</p>
+                <div class="price">$99.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\tech\7.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Best in class performance and affordability.</p>
+                <div class="price">$99.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\tech\8.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Best in class performance and affordability.</p>
+                <div class="price">$99.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-card">
+                <img src="C:\Users\DELL\Desktop\FRONTEND\images\tech\9.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Best in class performance and affordability.</p>
+                <div class="price">$99.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-brand">
+                <div class="brand-logo">
+                    <div class="logo-icon">B</div>
+                    <div class="logo-text">Brand</div>
+                </div>
+                <p class="brand-info">Best information about the company goes here, but now lorem ipsum is used.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">f</a>
+                    <a href="#" class="social-icon">t</a>
+                    <a href="#" class="social-icon">in</a>
+                    <a href="#" class="social-icon">ig</a>
+                    <a href="#" class="social-icon">yt</a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>About</h3>
+                    <a href="#" class="footer-link">About Us</a>
+                    <a href="#" class="footer-link">Find store</a>
+                    <a href="#" class="footer-link">Categories</a>
+                    <a href="#" class="footer-link">Blogs</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Partnership</h3>
+                    <a href="#" class="footer-link">About Us</a>
+                    <a href="#" class="footer-link">Find store</a>
+                    <a href="#" class="footer-link">Categories</a>
+                    <a href="#" class="footer-link">Blogs</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Information</h3>
+                    <a href="#" class="footer-link">Help Center</a>
+                    <a href="#" class="footer-link">Money Refund</a>
+                    <a href="#" class="footer-link">Shipping</a>
+                    <a href="#" class="footer-link">Contact us</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>For users</h3>
+                    <a href="#" class="footer-link">Login</a>
+                    <a href="#" class="footer-link">Register</a>
+                    <a href="#" class="footer-link">Settings</a>
+                    <a href="#" class="footer-link">My Orders</a>
+                </div>
+            </div>
+            
+            <div class="app-download">
+                <h3>Get app</h3>
+                <a href="#" class="app-button">
+                    <img src="/api/placeholder/140/42" alt="App Store Download">
+                </a>
+                <a href="#" class="app-button">
+                    <img src="/api/placeholder/140/42" alt="Google Play Download">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bottom-footer">
+        <div class="bottom-footer-content">
+            <div class="copyright">© 2023 Ecommerce.</div>
+            <div class="language-selector">
+                <img src="/api/placeholder/24/16" alt="US Flag"> English ▼
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
