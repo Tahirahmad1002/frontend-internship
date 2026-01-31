@@ -44,3 +44,21 @@ This task demonstrates understanding of **front-end layout concepts**, **semanti
 
 ## 📂 Project Structure
 
+├── index.html
+├── style.css
+├── images/
+│ ├── cloth/
+│ ├── tech/
+│ └── interior/
+└── README.md
+
+> ⚠️ **Note:**  
+> Image paths should be relative (e.g., `images/cloth/1.jpg`) instead of local system paths.
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tahirahmad1002/frontend-internship.git
